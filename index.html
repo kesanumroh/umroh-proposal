@@ -1,0 +1,1854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2C3E2D">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Umrah Mandiri 12 Hari — Premium Journey Proposal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ivory: #FAF8F3;
+    --ivory-dark: #F2EDE3;
+    --sand: #E8DFD0;
+    --sand-mid: #C9BAA5;
+    --gold: #B8962E;
+    --gold-light: #D4AE4F;
+    --gold-faint: #F5EDD8;
+    --olive: #2C3E2D;
+    --olive-mid: #3D5C3F;
+    --charcoal: #2A2A2A;
+    --charcoal-mid: #4A4A4A;
+    --charcoal-light: #6B6B6B;
+    --white: #FFFFFF;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background-color: var(--ivory);
+    color: var(--charcoal);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+    font-size: 15.5px;
+  }
+
+  /* ── TYPOGRAPHY ── */
+  h1, h2, h3, h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--olive);
+  }
+
+  .section-label {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+    display: block;
+  }
+
+  /* ── LAYOUT ── */
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  section {
+    padding: 88px 0;
+  }
+
+  /* ── DIVIDER ── */
+  .ornament-divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 0 48px;
+  }
+  .ornament-divider::before,
+  .ornament-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--sand-mid));
+  }
+  .ornament-divider::after {
+    background: linear-gradient(to left, transparent, var(--sand-mid));
+  }
+  .ornament-diamond {
+    width: 6px;
+    height: 6px;
+    background: var(--gold);
+    transform: rotate(45deg);
+    flex-shrink: 0;
+  }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-color: #1a2e1a;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Masjid_Al_Haram%2C_Makkah%2C_Saudi_Arabia.jpg/1280px-Masjid_Al_Haram%2C_Makkah%2C_Saudi_Arabia.jpg');
+    background-size: cover;
+    background-position: center 40%;
+    filter: brightness(0.38);
+    z-index: 0;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(20,30,20,0.35) 0%, rgba(10,18,10,0.72) 100%);
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 120px 32px 80px;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  .hero-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    display: block;
+    margin-bottom: 28px;
+  }
+
+  .hero-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(44px, 7vw, 80px);
+    font-weight: 400;
+    color: var(--white);
+    line-height: 1.08;
+    margin-bottom: 22px;
+    letter-spacing: -0.5px;
+  }
+
+  .hero-title em {
+    font-style: italic;
+    color: var(--gold-light);
+  }
+
+  .hero-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(255,255,255,0.72);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+
+  .hero-intro {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 20px;
+    color: rgba(255,255,255,0.82);
+    max-width: 600px;
+    margin: 0 auto 52px;
+    line-height: 1.65;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 42px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  .btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 42px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255,255,255,0.45);
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .hero-scroll-line {
+    width: 1px;
+    height: 40px;
+    background: rgba(255,255,255,0.3);
+    animation: scrollPulse 2s ease-in-out infinite;
+  }
+  @keyframes scrollPulse {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.8; }
+  }
+
+  /* ── SNAPSHOT CARDS ── */
+  #snapshot {
+    background: var(--olive);
+    padding: 64px 0;
+  }
+
+  .snapshot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1px;
+    background: rgba(255,255,255,0.08);
+  }
+
+  .snapshot-card {
+    background: var(--olive);
+    padding: 36px 28px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.07);
+    transition: background 0.3s;
+  }
+  .snapshot-card:hover { background: var(--olive-mid); }
+
+  .snapshot-icon {
+    font-size: 24px;
+    margin-bottom: 14px;
+    display: block;
+  }
+
+  .snapshot-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .snapshot-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 400;
+    line-height: 1.3;
+  }
+
+  /* ── SUMMARY ── */
+  #summary {
+    background: var(--ivory);
+  }
+
+  .summary-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+
+  .summary-text h2 {
+    font-size: clamp(34px, 4vw, 54px);
+    margin-bottom: 28px;
+  }
+
+  .summary-text p {
+    color: var(--charcoal-mid);
+    margin-bottom: 18px;
+    font-size: 15.5px;
+  }
+
+  .summary-image {
+    position: relative;
+  }
+
+  .summary-image img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .summary-image::before {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    right: 16px;
+    bottom: 16px;
+    border: 1px solid var(--gold);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .summary-image img { position: relative; z-index: 1; }
+
+  /* ── HIGHLIGHTS ── */
+  #highlights {
+    background: var(--ivory-dark);
+  }
+
+  .highlights-header {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  .highlights-header h2 { font-size: clamp(32px, 4vw, 50px); }
+
+  .highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 28px;
+  }
+
+  .highlight-card {
+    background: var(--white);
+    padding: 36px 30px;
+    border-bottom: 3px solid var(--gold);
+    transition: transform 0.25s, box-shadow 0.25s;
+  }
+  .highlight-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 48px rgba(0,0,0,0.08);
+  }
+
+  .highlight-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    color: var(--gold-faint);
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  .highlight-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    color: var(--olive);
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .highlight-desc {
+    font-size: 14px;
+    color: var(--charcoal-light);
+    line-height: 1.7;
+  }
+
+  /* ── GALLERY ── */
+  #gallery {
+    background: var(--olive);
+    padding: 72px 0;
+  }
+
+  .gallery-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .gallery-header h2 {
+    color: var(--white);
+    font-size: clamp(30px, 4vw, 48px);
+  }
+
+  .gallery-header .section-label {
+    color: var(--gold-light);
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 240px 240px;
+    gap: 10px;
+  }
+
+  .gallery-item {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .gallery-item:first-child {
+    grid-row: 1 / 3;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+    display: block;
+  }
+
+  .gallery-item:hover img { transform: scale(1.04); }
+
+  .gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.65));
+    color: rgba(255,255,255,0.85);
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 24px 16px 14px;
+  }
+
+  /* ── ITINERARY ── */
+  #itinerary {
+    background: var(--ivory);
+  }
+
+  .itinerary-header {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .itinerary-header h2 { font-size: clamp(32px, 4vw, 50px); }
+
+  .itinerary-timeline {
+    position: relative;
+    padding-left: 48px;
+  }
+
+  .itinerary-timeline::before {
+    content: '';
+    position: absolute;
+    left: 11px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, var(--gold), var(--sand-mid), var(--gold));
+  }
+
+  .itinerary-day {
+    position: relative;
+    margin-bottom: 44px;
+    background: var(--white);
+    padding: 32px 36px;
+    border-left: 3px solid var(--ivory-dark);
+    transition: border-color 0.25s;
+  }
+
+  .itinerary-day:hover { border-left-color: var(--gold); }
+
+  .itinerary-day::before {
+    content: '';
+    position: absolute;
+    left: -53px;
+    top: 36px;
+    width: 10px;
+    height: 10px;
+    background: var(--gold);
+    border-radius: 50%;
+    border: 2px solid var(--ivory);
+    box-shadow: 0 0 0 3px rgba(184,150,46,0.2);
+  }
+
+  .day-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+
+  .day-num {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 500;
+  }
+
+  .day-date {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    color: var(--charcoal-light);
+  }
+
+  .day-meals {
+    display: flex;
+    gap: 6px;
+    margin-left: auto;
+  }
+
+  .meal-badge {
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    background: var(--gold-faint);
+    color: var(--gold);
+    font-weight: 500;
+  }
+
+  .day-route {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    color: var(--olive);
+    margin-bottom: 18px;
+    font-weight: 500;
+  }
+
+  .day-activities {
+    list-style: none;
+  }
+
+  .day-activities li {
+    padding: 5px 0 5px 18px;
+    position: relative;
+    font-size: 14.5px;
+    color: var(--charcoal-mid);
+    line-height: 1.6;
+  }
+
+  .day-activities li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--sand-mid);
+    font-size: 12px;
+  }
+
+  /* ── INCLUSIONS ── */
+  #inclusions {
+    background: var(--ivory-dark);
+  }
+
+  .inclusions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .inclusion-block {
+    background: var(--white);
+    padding: 40px;
+  }
+
+  .inclusion-block h3 {
+    font-size: 26px;
+    margin-bottom: 28px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--sand);
+  }
+
+  .inclusion-list {
+    list-style: none;
+  }
+
+  .inclusion-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--ivory-dark);
+    font-size: 14.5px;
+    color: var(--charcoal-mid);
+  }
+
+  .inclusion-list li:last-child { border-bottom: none; }
+
+  .inc-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .inc-check { color: var(--olive-mid); }
+  .exc-cross { color: #A0483C; }
+
+  /* ── EXTRAS ── */
+  #extras {
+    background: var(--white);
+  }
+
+  .extras-header { text-align: center; margin-bottom: 48px; }
+  .extras-header h2 { font-size: clamp(28px, 3.5vw, 44px); }
+
+  .extras-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .extra-card {
+    border: 1px solid var(--sand);
+    padding: 28px 24px;
+    text-align: center;
+    transition: border-color 0.25s, box-shadow 0.25s;
+  }
+
+  .extra-card:hover {
+    border-color: var(--gold);
+    box-shadow: 0 8px 32px rgba(184,150,46,0.1);
+  }
+
+  .extra-icon { font-size: 28px; margin-bottom: 12px; display: block; }
+
+  .extra-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: var(--olive);
+    margin-bottom: 6px;
+  }
+
+  .extra-note { font-size: 12px; color: var(--charcoal-light); }
+
+  /* ── PRICING ── */
+  #pricing {
+    background: var(--olive);
+  }
+
+  .pricing-header { text-align: center; margin-bottom: 52px; }
+  .pricing-header h2 { color: var(--white); font-size: clamp(30px, 4vw, 48px); }
+  .pricing-header .section-label { color: var(--gold-light); }
+
+  .pricing-note {
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
+    text-align: center;
+    margin-bottom: 36px;
+    font-style: italic;
+  }
+
+  .pricing-table-wrap {
+    overflow-x: auto;
+    margin-bottom: 48px;
+  }
+
+  .pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 680px;
+  }
+
+  .pricing-table th {
+    background: rgba(255,255,255,0.06);
+    color: var(--gold-light);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+  }
+
+  .pricing-table td {
+    padding: 15px 20px;
+    color: rgba(255,255,255,0.8);
+    font-size: 14.5px;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+    vertical-align: middle;
+  }
+
+  .pricing-table tr:hover td {
+    background: rgba(255,255,255,0.04);
+  }
+
+  .hotel-tag {
+    font-size: 11px;
+    color: var(--gold-light);
+    display: block;
+    margin-top: 3px;
+  }
+
+  .price-val {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    color: var(--white);
+    font-weight: 400;
+  }
+
+  .price-la-full td.price-val-cell {
+    background: rgba(184,150,46,0.1);
+  }
+
+  .table-section-header td {
+    background: rgba(255,255,255,0.04);
+    color: var(--gold-light);
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+  }
+
+  .surcharge-note {
+    font-size: 12.5px;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* ── FLIGHT ── */
+  #flight {
+    background: var(--ivory);
+  }
+
+  .flight-header { text-align: center; margin-bottom: 52px; }
+  .flight-header h2 { font-size: clamp(28px, 3.5vw, 44px); }
+
+  .flight-table-wrap { overflow-x: auto; }
+
+  .flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+  }
+
+  .flight-table th {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9.5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--charcoal-light);
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 2px solid var(--sand);
+    font-weight: 500;
+  }
+
+  .flight-table td {
+    padding: 16px 18px;
+    font-size: 14px;
+    color: var(--charcoal-mid);
+    border-bottom: 1px solid var(--sand);
+  }
+
+  .flight-table tr:last-child td { border-bottom: none; }
+
+  .route-code {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    color: var(--olive);
+    font-weight: 500;
+  }
+
+  .airline-name { color: var(--charcoal); font-weight: 500; }
+
+  .flight-price-row td {
+    background: var(--gold-faint);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    color: var(--olive);
+    font-weight: 500;
+    padding: 20px 18px;
+  }
+
+  .flight-disclaimer {
+    margin-top: 22px;
+    padding: 20px 24px;
+    background: var(--ivory-dark);
+    border-left: 3px solid var(--gold);
+    font-size: 13px;
+    color: var(--charcoal-light);
+    line-height: 1.7;
+  }
+
+  /* ── PAYMENT ── */
+  #payment {
+    background: var(--ivory-dark);
+  }
+
+  .payment-header { text-align: center; margin-bottom: 52px; }
+  .payment-header h2 { font-size: clamp(28px, 3.5vw, 44px); }
+
+  .payment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+  }
+
+  .payment-card {
+    background: var(--white);
+    padding: 32px 28px;
+    border-top: 3px solid var(--olive);
+  }
+
+  .payment-card-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 44px;
+    color: var(--sand);
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+
+  .payment-card h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: var(--olive);
+  }
+
+  .payment-card p {
+    font-size: 14px;
+    color: var(--charcoal-light);
+    line-height: 1.7;
+  }
+
+  /* ── NOTES ── */
+  #notes {
+    background: var(--white);
+    padding: 56px 0;
+  }
+
+  .note-box {
+    border: 1px solid var(--sand);
+    padding: 36px 40px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .note-icon { font-size: 28px; flex-shrink: 0; margin-top: 2px; }
+
+  .note-box h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--olive);
+  }
+
+  .note-box p {
+    font-size: 14px;
+    color: var(--charcoal-light);
+    line-height: 1.75;
+  }
+
+  /* ── CTA ── */
+  #cta {
+    position: relative;
+    overflow: hidden;
+    padding: 120px 0;
+    text-align: center;
+  }
+
+  .cta-bg {
+    position: absolute;
+    inset: 0;
+    background-color: #1a2e1a;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Masjid-e-Nabawi.jpg/1280px-Masjid-e-Nabawi.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3);
+  }
+
+  .cta-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(20,35,20,0.6), rgba(10,20,10,0.85));
+  }
+
+  .cta-content {
+    position: relative;
+    z-index: 2;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  .cta-content .section-label { color: var(--gold-light); }
+
+  .cta-content h2 {
+    font-size: clamp(36px, 5vw, 64px);
+    color: var(--white);
+    margin-bottom: 24px;
+  }
+
+  .cta-content h2 em {
+    font-style: italic;
+    color: var(--gold-light);
+  }
+
+  .cta-content p {
+    font-size: 15.5px;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 14px;
+    line-height: 1.8;
+  }
+
+  .cta-content .btn-primary {
+    margin-top: 36px;
+    font-size: 11.5px;
+  }
+
+  .cta-details {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+
+  .cta-detail-item {
+    color: rgba(255,255,255,0.55);
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--charcoal);
+    padding: 32px;
+    text-align: center;
+    color: rgba(255,255,255,0.3);
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+
+    /* Global */
+    .container { padding: 0 18px; }
+    section { padding: 56px 0; }
+    .section-label { font-size: 9px; letter-spacing: 2.5px; }
+
+    /* Hero */
+    .hero-content { padding: 100px 20px 72px; }
+    .hero-label { font-size: 9px; letter-spacing: 3px; }
+    .hero-intro { font-size: 17px; margin-bottom: 36px; }
+    .btn-primary { padding: 16px 32px; font-size: 11px; }
+
+    /* Snapshot */
+    #snapshot { padding: 48px 0; }
+    .snapshot-grid { grid-template-columns: repeat(3, 1fr); }
+    .snapshot-card { padding: 24px 12px; }
+    .snapshot-value { font-size: 16px; }
+    .snapshot-label { font-size: 8px; letter-spacing: 1.5px; }
+    .snapshot-icon { font-size: 20px; margin-bottom: 10px; }
+
+    /* Summary */
+    .summary-inner { grid-template-columns: 1fr; gap: 32px; }
+    .summary-image { order: -1; }
+    .summary-image img { height: 260px; }
+    .summary-image::before { display: none; }
+    .summary-text h2 { font-size: 30px; }
+
+    /* Highlights */
+    .highlights-grid { grid-template-columns: 1fr; gap: 16px; }
+    .highlight-card { padding: 28px 22px; }
+    .highlight-num { font-size: 32px; }
+
+    /* Gallery */
+    .gallery-grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 160px 160px 160px;
+      gap: 6px;
+    }
+    .gallery-item:first-child { grid-row: auto; grid-column: 1 / 3; height: 200px; }
+    .gallery-caption { font-size: 9px; padding: 16px 10px 10px; }
+
+    /* Itinerary */
+    .itinerary-timeline { padding-left: 28px; }
+    .itinerary-timeline::before { left: 6px; }
+    .itinerary-day {
+      padding: 20px 16px;
+      margin-bottom: 28px;
+    }
+    .itinerary-day::before { left: -34px; width: 8px; height: 8px; top: 24px; }
+    .day-meta { gap: 10px; }
+    .day-num { font-size: 9px; }
+    .day-date { font-size: 11px; }
+    .day-route { font-size: 18px; margin-bottom: 14px; }
+    .day-meals { margin-left: 0; width: 100%; }
+    .meal-badge { font-size: 8px; padding: 2px 6px; }
+    .day-activities li { font-size: 13.5px; }
+
+    /* Inclusions */
+    .inclusions-grid { grid-template-columns: 1fr; gap: 16px; }
+    .inclusion-block { padding: 28px 22px; }
+    .inclusion-block h3 { font-size: 22px; margin-bottom: 20px; }
+    .inclusion-list li { font-size: 13.5px; gap: 10px; }
+
+    /* Extras */
+    .extras-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+    .extra-card { padding: 22px 16px; }
+    .extra-icon { font-size: 22px; }
+    .extra-name { font-size: 15px; }
+    .extra-note { font-size: 11px; }
+
+    /* Pricing — card layout on mobile instead of wide table */
+    .pricing-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .pricing-table { font-size: 12.5px; min-width: 560px; }
+    .pricing-table th { font-size: 8.5px; padding: 12px 10px; letter-spacing: 1px; }
+    .pricing-table td { padding: 11px 10px; }
+    .price-val { font-size: 17px; }
+    .hotel-tag { font-size: 9.5px; }
+    .table-section-header td { font-size: 10px; padding: 10px; }
+    /* Scroll hint */
+    .pricing-table-wrap::after {
+      content: '← Geser untuk melihat semua →';
+      display: block;
+      text-align: center;
+      font-size: 10px;
+      color: rgba(255,255,255,0.4);
+      padding: 10px 0 0;
+      letter-spacing: 1px;
+    }
+
+    /* Flight table */
+    .flight-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .flight-table { font-size: 12.5px; min-width: 580px; }
+    .flight-table th { font-size: 8.5px; padding: 11px 10px; }
+    .flight-table td { padding: 13px 10px; }
+    .route-code { font-size: 16px; }
+    .flight-price-row td { font-size: 18px; padding: 16px 10px; }
+    .flight-disclaimer { padding: 16px 18px; font-size: 12.5px; }
+    /* Scroll hint */
+    .flight-table-wrap::after {
+      content: '← Geser untuk melihat semua →';
+      display: block;
+      text-align: center;
+      font-size: 10px;
+      color: var(--charcoal-light);
+      padding: 8px 0 0;
+      letter-spacing: 1px;
+    }
+
+    /* Payment */
+    .payment-grid { grid-template-columns: 1fr; gap: 14px; }
+    .payment-card { padding: 24px 20px; }
+    .payment-card-num { font-size: 36px; }
+    .payment-card h4 { font-size: 15px; }
+    .payment-card p { font-size: 13.5px; }
+
+    /* Notes */
+    .note-box { flex-direction: column; gap: 12px; padding: 24px 20px; }
+    .note-icon { font-size: 22px; }
+
+    /* CTA */
+    #cta { padding: 88px 0; }
+    .cta-content h2 { font-size: 34px; }
+    .cta-content p { font-size: 14.5px; }
+    .cta-details { gap: 16px; flex-direction: column; align-items: center; }
+    .cta-detail-item { font-size: 11px; }
+
+    /* Footer */
+    footer { font-size: 11px; padding: 24px 18px; }
+  }
+
+  @media (max-width: 400px) {
+    .snapshot-grid { grid-template-columns: repeat(2, 1fr); }
+    .extras-grid { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr; grid-template-rows: auto; }
+    .gallery-item:first-child { grid-column: auto; height: 220px; }
+    .gallery-item { height: 180px; }
+  }
+
+  @media print {
+    .hero-scroll { display: none; }
+    .btn-primary { display: none; }
+    #cta .btn-primary { display: none; }
+    body { font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="hero-label">Premium Umrah Journey · Malaysia Departure</span>
+    <h1 class="hero-title">Umrah Mandiri<br><em>12 Hari 10 Malam</em></h1>
+    <p class="hero-subtitle">02 – 13 Jun 2026 &nbsp;·&nbsp; Kuala Lumpur – Madinah – Makkah</p>
+    <p class="hero-intro">A thoughtfully arranged journey toward the two most sacred cities on earth — where every detail is prepared so that your heart may be fully present.</p>
+    <a href="#pricing" class="btn-primary">Reserve This Package</a>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     SNAPSHOT
+════════════════════════════════════════════════════ -->
+<section id="snapshot">
+  <div class="container">
+    <div class="snapshot-grid">
+      <div class="snapshot-card">
+        <span class="snapshot-icon">🕌</span>
+        <span class="snapshot-label">Duration</span>
+        <div class="snapshot-value">12 Hari<br>10 Malam</div>
+      </div>
+      <div class="snapshot-card">
+        <span class="snapshot-icon">✈️</span>
+        <span class="snapshot-label">Route</span>
+        <div class="snapshot-value">KUL → JED<br>Madinah → Makkah</div>
+      </div>
+      <div class="snapshot-card">
+        <span class="snapshot-icon">👥</span>
+        <span class="snapshot-label">Group Size</span>
+        <div class="snapshot-value">Minimum<br>8 Pax</div>
+      </div>
+      <div class="snapshot-card">
+        <span class="snapshot-icon">🛏</span>
+        <span class="snapshot-label">Room Basis</span>
+        <div class="snapshot-value">Quad / Triple<br>/ Double</div>
+      </div>
+      <div class="snapshot-card">
+        <span class="snapshot-icon">🍽</span>
+        <span class="snapshot-label">Meals</span>
+        <div class="snapshot-value">Fullboard<br>3× Daily</div>
+      </div>
+      <div class="snapshot-card">
+        <span class="snapshot-icon">🤲</span>
+        <span class="snapshot-label">Package Type</span>
+        <div class="snapshot-value">Umrah<br>Mandiri</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     SUMMARY
+════════════════════════════════════════════════════ -->
+<section id="summary">
+  <div class="container">
+    <div class="summary-inner">
+      <div class="summary-text">
+        <span class="section-label">About This Journey</span>
+        <h2>Crafted for Those Who Seek Both Comfort and Devotion</h2>
+        <div class="ornament-divider"><div class="ornament-diamond"></div></div>
+        <p>This 12-day Umrah package is designed with a singular purpose: to allow you to focus entirely on your ibadah. Every logistical detail — from airport handling to daily meals, from Raudhah facilitation to transportation during Umrah — has been arranged with care.</p>
+        <p>You will spend six meaningful days in Madinah Al-Munawwarah, grounded in the presence of Masjid Nabawi, before continuing to Makkah Al-Mukarramah for five days of concentrated worship at Masjidil Haram.</p>
+        <p>Our muthawwif accompanies you throughout your time in Makkah, offering gentle guidance. Our team ensures your arrival, movement, and departure are handled with professionalism and warmth — so that nothing stands between you and your purpose.</p>
+      </div>
+      <div class="summary-image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Masjid-e-Nabawi.jpg/1024px-Masjid-e-Nabawi.jpg" alt="Masjid Nabawi, Madinah Al-Munawwarah" onerror="this.style.background='linear-gradient(135deg,#2C3E2D,#3D5C3F)';this.removeAttribute('src')">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     HIGHLIGHTS
+════════════════════════════════════════════════════ -->
+<section id="highlights">
+  <div class="container">
+    <div class="highlights-header">
+      <span class="section-label">What's Included</span>
+      <h2>Journey Highlights</h2>
+      <div class="ornament-divider"><div class="ornament-diamond"></div></div>
+    </div>
+    <div class="highlights-grid">
+      <div class="highlight-card">
+        <div class="highlight-num">01</div>
+        <div class="highlight-title">Fullboard Meals Throughout</div>
+        <p class="highlight-desc">Three meals daily for the entire journey — breakfast, lunch, and dinner — so you may dedicate your time fully to ibadah without concern.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-num">02</div>
+        <div class="highlight-title">Raudhah Tasreh Facilitated</div>
+        <p class="highlight-desc">Access to Raudhah — the blessed garden between the Prophet's ﷺ pulpit and his chamber — is arranged for both male and female pilgrims.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-num">03</div>
+        <div class="highlight-title">Exclusive Van During Umrah</div>
+        <p class="highlight-desc">A dedicated private van accompanies your group across five Umrah routes, ensuring comfort and flexibility throughout your time in Makkah.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-num">04</div>
+        <div class="highlight-title">Muthawwif Accompaniment</div>
+        <p class="highlight-desc">An experienced muthawwif is present for 5 days in Makkah to guide, support, and assist your group through every ritual with confidence.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-num">05</div>
+        <div class="highlight-title">Airport Handling in Jeddah</div>
+        <p class="highlight-desc">Arrival and departure handling at Jeddah International Airport is fully arranged — transfers, coordination, and assistance are all included.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-num">06</div>
+        <div class="highlight-title">Air Zamzam & Crew Tipping</div>
+        <p class="highlight-desc">Each pilgrim receives 5 litres of blessed Zamzam water. Crew tipping (driver and muthawwif at USD 3/pax/day) is included in the package.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     GALLERY
+════════════════════════════════════════════════════ -->
+<section id="gallery">
+  <div class="container">
+    <div class="gallery-header">
+      <span class="section-label">Sacred Places</span>
+      <h2>The Places That Await You</h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Masjid_Al_Haram%2C_Makkah%2C_Saudi_Arabia.jpg/1024px-Masjid_Al_Haram%2C_Makkah%2C_Saudi_Arabia.jpg" onerror="this.parentElement.style.background='#1a2e1a'"  alt="Masjidil Haram and the Kaaba, Makkah Al-Mukarramah">
+        <div class="gallery-caption">Masjidil Haram · Makkah Al-Mukarramah</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Masjid-e-Nabawi.jpg/800px-Masjid-e-Nabawi.jpg" alt="Masjid Nabawi, Madinah">
+        <div class="gallery-caption">Masjid Nabawi · Madinah</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Masjid_Al_Haram%2C_Makkah%2C_Saudi_Arabia.jpg/800px-Masjid_Al_Haram%2C_Makkah%2C_Saudi_Arabia.jpg" alt="Kaaba and sacred atmosphere">
+        <div class="gallery-caption">The Sacred Kaaba</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Kaaba_2009.jpg/800px-Kaaba_2009.jpg" alt="Pilgrims at prayer in Makkah">
+        <div class="gallery-caption">Moments of Devotion</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Madinah_city.jpg/800px-Madinah_city.jpg" alt="Islamic architecture and sacred atmosphere">
+        <div class="gallery-caption">Sacred Journey Ambience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     ITINERARY
+════════════════════════════════════════════════════ -->
+<section id="itinerary">
+  <div class="container">
+    <div class="itinerary-header">
+      <span class="section-label">Day by Day</span>
+      <h2>Your Complete Itinerary</h2>
+      <div class="ornament-divider"><div class="ornament-diamond"></div></div>
+    </div>
+    <div class="itinerary-timeline">
+
+      <!-- Day 1 -->
+      <div class="itinerary-day">
+        <div class="day-meta">
+          <span class="day-num">Hari Ke-1</span>
+          <span class="day-date">02 Jun 2026</span>
+          <div class="day-meals">
+            <span class="meal-badge">B</span>
+            <span class="meal-badge">L</span>
+            <span class="meal-badge">D</span>
+          </div>
+        </div>
+        <div class="day-route">KUL → JED → Madinah</div>
+        <ul class="day-activities">
+          <li>Arrival at Jeddah International Airport</li>
+          <li>Airport transfer arranged upon landing</li>
+          <li>Overland journey to Madinah Al-Munawwarah</li>
+          <li>Check-in at hotel in Madinah</li>
+          <li>Rest and acclimatisation</li>
+        </ul>
+      </div>
+
+      <!-- Day 2 -->
+      <div class="itinerary-day">
+        <div class="day-meta">
+          <span class="day-num">Hari Ke-2</span>
+          <span class="day-date">03 Jun 2026</span>
+          <div class="day-meals">
+            <span class="meal-badge">B</span>
+            <span class="meal-badge">L</span>
+            <span class="meal-badge">D</span>
+          </div>
+        </div>
+        <div class="day-route">Madinah — Ibadah di Masjid Nabawi</div>
+        <ul class="day-activities">
+          <li>Qiyamul Lail (night vigil prayer) at Masjid Nabawi</li>
+          <li>Return to hotel — breakfast</li>
+          <li>I'tikaf at Masjid Nabawi</li>
+          <li>Rest at hotel</li>
+          <li>Evening I'tikaf at Masjid Nabawi, then return</li>
+        </ul>
+      </div>
+
+      <!-- Day 3 -->
+      <div class="itinerary-day">
+        <div class="day-meta">
+          <span class="day-num">Hari Ke-3</span>
+          <span class="day-date">04 Jun 2026</span>
+          <div class="day-meals">
+            <span class="meal-badge">B</span>
+            <span class="meal-badge">L</span>
+            <span class="meal-badge">D</span>
+          </div>
+        </div>
+        <div class="day-route">Madinah — Raudhah & Ziyarah Nabawi</div>
+        <ul class="day-activities">
+          <li>Breakfast at hotel</li>
+          <li>I'tikaf at Masjid Nabawi</li>
+          <li>Raudhah visit facilitated for both male and female pilgrims</li>
+          <li>Ziyarah around Masjid Nabawi: Masjid Abu Bakar, Masjid Ghamamah, Maqam Baqi, Masjid Umar, Masjid Ali, Saqifah Bani Sa'idah</li>
+          <li>Evening I'tikaf at Masjid Nabawi, then return to hotel</li>
+        </ul>
+      </div>
+
+      <!-- Day 4 -->
+      <div class="itinerary-day">
+        <div class="day-meta">
+          <span class="day-num">Hari Ke-4</span>
+          <span class="day-date">05 Jun 2026</span>
+          <div class="day-meals">
+            <span class="meal-badge">B</span>
+            <span class="meal-badge">L</span>
+            <span class="meal-badge">D</span>
+          </div>
+        </div>
+        <div class="day-route">Madinah — Ziyarah Luar Madinah</div>
+        <ul class="day-activities">
+          <li>Breakfast at hotel</li>
+          <li>Morning I'tikaf at Masjid Nabawi</li>
+          <li>Outer Madinah ziyarah: Masjid Khandaq, Masjid Quba, Jabal Uhud, Jabal Rumat, Kebun Kurma</li>
+          <li>Shopping in the Madinah surroundings</li>
+          <li>Evening I'tikaf at Masjid Nabawi, then return to hotel</li>
+        </ul>
+      </div>
+
+      <!-- Day 5-6 -->
+      <div class="itinerary-day">
+        <div class="day-meta">
+          <span class="day-num">Hari Ke-5 & 6</span>
+          <span class="day-date">06 – 07 Jun 2026</span>
+          <div class="day-meals">
+            <span class="meal-badge">B</span>
+            <span class="meal-badge">L</span>
+            <span class="meal-badge">D</span>
+          </div>
+        </div>
+        <div class="day-route">Madinah — Fokus Ibadah</div>
+        <ul class="day-activities">
+          <li><strong>Subuh:</strong> Congregational prayer at Masjid Nabawi, followed by tilawah or dhikr until sunrise</li>
+          <li><strong>Daytime:</strong> Zuhur and Asar in congregation; free time to rest at hotel</li>
+          <li><strong>Evening:</strong> Maghrib and Isya in congregation; optional sunnah prayers or du'a at Raudhah</li>
+          <li><strong>Optional day (Day 5 or 6):</strong> Shopping for Islamic souvenirs, dates, tasbih, and gifts — without missing congregational prayer times</li>
+        </ul>
+      </div>
+
+      <!-- Day 7 -->
+      <div class="itinerary-day">
+        <div class="day-meta">
+          <span class="day-num">Hari Ke-7</span>
+          <span class="day-date">08 Jun 2026</span>
+          <div class="day-meals">
+            <span class="meal-badge">B</span>
+            <span class="meal-badge">L</span>
+            <span class="meal-badge">D</span>
+          </div>
+        </div>
+        <div class="day-route">Madinah → Makkah — Umrah Pertama</div>
+        <ul class="day-activities">
+          <li>Final prayer at Masjid Nabawi — dhikr and farewell du'a</li>
+          <li>Breakfast and check-out from hotel</li>
+          <li>Jumu'ah (Friday) prayer — final Friday in Madinah</li>
+          <li>Departure toward Makkah Al-Mukarramah</li>
+          <li>Miqat taken at Masjid Bir Ali (niat Umrah)</li>
+          <li>Arrival in Makkah — hotel check-in</li>
+          <li>First Umrah performed: Tawaf, Sa'i, and Tahallul</li>
+          <li>Return to hotel — rest</li>
+        </ul>
+      </div>
+
+      <!-- Day 8 -->
+      <div class="itinerary-day">
+        <div class="day-meta">
+          <span class="day-num">Hari Ke-8</span>
+          <span class="day-date">09 Jun 2026</span>
+          <div class="day-meals">
+            <span class="meal-badge">B</span>
+            <span class="meal-badge">L</span>
+            <span class="meal-badge">D</span>
+          </div>
+        </div>
+        <div class="day-route">Makkah — Ziyarah Sekitar Mekkah</div>
+        <ul class="day-activities">
+          <li>Qiyamul Lail and Subuh in congregation at Masjidil Haram, followed by brief I'tikaf</li>
+          <li>Breakfast at hotel</li>
+          <li>Visit to Jabal Nur (Gua Hira)</li>
+          <li>Visit to Jabal Tsur</li>
+          <li>Visit to Padang Arafah, Muzdalifah, and Mina</li>
+          <li>Return to hotel — rest</li>
+        </ul>
+      </div>
+
+      <!-- Day 9-10 -->
+      <div class="itinerary-day">
+        <div class="day-meta">
+          <span class="day-num">Hari Ke-9 & 10</span>
+          <span class="day-date">10 – 11 Jun 2026</span>
+          <div class="day-meals">
+            <span class="meal-badge">B</span>
+            <span class="meal-badge">L</span>
+            <span class="meal-badge">D</span>
+          </div>
+        </div>
+        <div class="day-route">Makkah — Ibadah di Masjidil Haram</div>
+        <ul class="day-activities">
+          <li>Qiyamul Lail and Subuh in congregation at Masjidil Haram</li>
+          <li>Breakfast at hotel</li>
+          <li>Intensified worship at Masjidil Haram — Tawaf, du'a, Quran, dhikr</li>
+          <li>Return to hotel — rest</li>
+        </ul>
+      </div>
+
+      <!-- Day 11 -->
+      <div class="itinerary-day">
+        <div class="day-meta">
+          <span class="day-num">Hari Ke-11</span>
+          <span class="day-date">12 Jun 2026</span>
+          <div class="day-meals">
+            <span class="meal-badge">B</span>
+            <span class="meal-badge">L</span>
+            <span class="meal-badge">D (On Board)</span>
+          </div>
+        </div>
+        <div class="day-route">Makkah → Jeddah → KUL</div>
+        <ul class="day-activities">
+          <li>Qiyamul Lail and Subuh at Masjidil Haram — final I'tikaf</li>
+          <li>Breakfast at hotel</li>
+          <li>Tawaf Wada' (farewell tawaf)</li>
+          <li>Hotel check-out</li>
+          <li>Overland transfer to Jeddah International Airport</li>
+          <li>Airport check-in and departure toward Kuala Lumpur</li>
+        </ul>
+      </div>
+
+      <!-- Day 12 -->
+      <div class="itinerary-day">
+        <div class="day-meta">
+          <span class="day-num">Hari Ke-12</span>
+          <span class="day-date">13 Jun 2026</span>
+          <div class="day-meals">
+            <span class="meal-badge">B</span>
+            <span class="meal-badge">L</span>
+            <span class="meal-badge">D</span>
+          </div>
+        </div>
+        <div class="day-route">Arrival — KUL</div>
+        <ul class="day-activities">
+          <li>Arrival at Kuala Lumpur International Airport</li>
+          <li>Immigration and baggage clearance</li>
+          <li>Airport transfer</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     INCLUSIONS / EXCLUSIONS
+════════════════════════════════════════════════════ -->
+<section id="inclusions">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:52px;">
+      <span class="section-label">What's Covered</span>
+      <h2>Inclusions & Exclusions</h2>
+      <div class="ornament-divider"><div class="ornament-diamond"></div></div>
+    </div>
+    <div class="inclusions-grid">
+
+      <div class="inclusion-block">
+        <h3>✓ Included in Package</h3>
+        <ul class="inclusion-list">
+          <li>
+            <svg class="inc-icon inc-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            10 nights accommodation in Quad Room configuration with fullboard meals (3×/day)
+          </li>
+          <li>
+            <svg class="inc-icon inc-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Exclusive private van during Umrah (5 routes)
+          </li>
+          <li>
+            <svg class="inc-icon inc-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Private driver throughout the journey
+          </li>
+          <li>
+            <svg class="inc-icon inc-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Muthawwif accompaniment for 5 days in Makkah
+          </li>
+          <li>
+            <svg class="inc-icon inc-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Raudhah Tasreh (facilitated access for all pilgrims)
+          </li>
+          <li>
+            <svg class="inc-icon inc-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Airport handling in Jeddah (1×)
+          </li>
+          <li>
+            <svg class="inc-icon inc-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Free Air Zamzam 5 litres per pilgrim
+          </li>
+          <li>
+            <svg class="inc-icon inc-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Complimentary snack throughout the journey
+          </li>
+          <li>
+            <svg class="inc-icon inc-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            1× complimentary meal during city tour
+          </li>
+          <li>
+            <svg class="inc-icon inc-check" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Crew tipping for driver and muthawwif (USD 3/pax/day)
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="inclusion-block" style="margin-bottom:22px;">
+          <h3 style="color:#A0483C;">✗ Not Included</h3>
+          <ul class="inclusion-list">
+            <li>
+              <svg class="inc-icon exc-cross" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              International flight tickets
+            </li>
+            <li>
+              <svg class="inc-icon exc-cross" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              Personal expenses
+            </li>
+            <li>
+              <svg class="inc-icon exc-cross" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              Hotel room upgrades
+            </li>
+            <li>
+              <svg class="inc-icon exc-cross" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              Any items not specified within the package
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     EXTRAS
+════════════════════════════════════════════════════ -->
+<section id="extras">
+  <div class="container">
+    <div class="extras-header">
+      <span class="section-label">Optional Add-Ons</span>
+      <h2>Additional Services Available</h2>
+      <div class="ornament-divider"><div class="ornament-diamond"></div></div>
+    </div>
+    <div class="extras-grid">
+      <div class="extra-card">
+        <span class="extra-icon">💱</span>
+        <div class="extra-name">Money Changer</div>
+        <p class="extra-note">Currency exchange service available upon request</p>
+      </div>
+      <div class="extra-card">
+        <span class="extra-icon">📋</span>
+        <div class="extra-name">Umrah Visa</div>
+        <p class="extra-note">USD 155 per pax — arranged separately</p>
+      </div>
+      <div class="extra-card">
+        <span class="extra-icon">🏙</span>
+        <div class="extra-name">City Tour Thaif</div>
+        <p class="extra-note">Optional scenic excursion to Thaif available</p>
+      </div>
+      <div class="extra-card">
+        <span class="extra-icon">📶</span>
+        <div class="extra-name">Roaming Package</div>
+        <p class="extra-note">Stay connected throughout your journey</p>
+      </div>
+      <div class="extra-card">
+        <span class="extra-icon">🛫</span>
+        <div class="extra-name">Airport Handling KUL</div>
+        <p class="extra-note">Kuala Lumpur airport assistance available as add-on</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     PRICING
+════════════════════════════════════════════════════ -->
+<section id="pricing">
+  <div class="container">
+    <div class="pricing-header">
+      <span class="section-label">Investment</span>
+      <h2>Package Pricing</h2>
+    </div>
+
+    <p class="pricing-note">All rates in MYR per pax · Hotel listed or similar · Minimum 8 pax</p>
+    <p class="pricing-note" style="margin-top:-8px; font-size:11px;">Departure: 02–13 Jun 2026 &nbsp;|&nbsp; Pricing reference period: 23 Jun–04 Jul 2026</p>
+
+    <div class="pricing-table-wrap">
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th>Hotel Makkah</th>
+            <th>Hotel Madinah</th>
+            <th>Room Type</th>
+            <th>Land Arrangement</th>
+            <th>LA w/o Transport</th>
+            <th>LA w/o Transport + Muthawwif</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-section-header">
+            <td colspan="6">★ 4 Makkah / ★ 3 Madinah — Al-Olayan Ajyad (or similar) · Sanabel Al-Madinah (or similar)</td>
+          </tr>
+          <tr>
+            <td rowspan="3" style="color:rgba(255,255,255,0.6); font-size:13px;">Al-Olayan Ajyad<br><span class="hotel-tag">★4 or similar</span></td>
+            <td rowspan="3" style="color:rgba(255,255,255,0.6); font-size:13px;">Sanabel Al-Madinah<br><span class="hotel-tag">★3 or similar</span></td>
+            <td style="color:var(--gold-light);">Quad</td>
+            <td><span class="price-val">RM 3,675</span></td>
+            <td><span class="price-val">RM 3,279</span></td>
+            <td><span class="price-val">RM 3,008</span></td>
+          </tr>
+          <tr>
+            <td style="color:var(--gold-light);">Triple</td>
+            <td><span class="price-val">RM 4,535</span></td>
+            <td><span class="price-val">RM 4,141</span></td>
+            <td><span class="price-val">RM 3,870</span></td>
+          </tr>
+          <tr>
+            <td style="color:var(--gold-light);">Double</td>
+            <td><span class="price-val">RM 5,138</span></td>
+            <td><span class="price-val">RM 4,744</span></td>
+            <td><span class="price-val">RM 4,486</span></td>
+          </tr>
+          <tr class="table-section-header">
+            <td colspan="6">★ 5 Makkah / ★ 5 Madinah — Mekkah Tower (or similar) · Taiba Front (or similar)</td>
+          </tr>
+          <tr>
+            <td rowspan="3" style="color:rgba(255,255,255,0.6); font-size:13px;">Mekkah Tower<br><span class="hotel-tag">★5 or similar</span></td>
+            <td rowspan="3" style="color:rgba(255,255,255,0.6); font-size:13px;">Taiba Front<br><span class="hotel-tag">★5 or similar</span></td>
+            <td style="color:var(--gold-light);">Quad</td>
+            <td><span class="price-val">RM 5,225</span></td>
+            <td><span class="price-val">RM 4,828</span></td>
+            <td><span class="price-val">RM 4,560</span></td>
+          </tr>
+          <tr>
+            <td style="color:var(--gold-light);">Triple</td>
+            <td><span class="price-val">RM 6,678</span></td>
+            <td><span class="price-val">RM 6,285</span></td>
+            <td><span class="price-val">RM 6,015</span></td>
+          </tr>
+          <tr>
+            <td style="color:var(--gold-light);">Double</td>
+            <td><span class="price-val">RM 7,762</span></td>
+            <td><span class="price-val">RM 7,368</span></td>
+            <td><span class="price-val">RM 7,122</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="surcharge-note">* Excludes 21% surcharge applicable during Saudi Arabia public holidays and long weekend seasons.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     FLIGHT
+════════════════════════════════════════════════════ -->
+<section id="flight">
+  <div class="container">
+    <div class="flight-header">
+      <span class="section-label">Air Travel</span>
+      <h2>Estimated Flight Details</h2>
+      <div class="ornament-divider"><div class="ornament-diamond"></div></div>
+      <p style="color:var(--charcoal-light); font-size:14px; max-width:560px; margin:0 auto;">Estimated flight schedule for the period 23 Jun – 04 Jul 2026 via Etihad Airways, with connection through Abu Dhabi.</p>
+    </div>
+    <div class="flight-table-wrap">
+      <table class="flight-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Dep</th>
+            <th>Arr</th>
+            <th>Airline</th>
+            <th>Flight</th>
+            <th>Baggage</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>23 Jun 2026</td>
+            <td><span class="route-code">KUL</span></td>
+            <td><span class="route-code">AUH</span></td>
+            <td>09:50</td>
+            <td>12:50</td>
+            <td class="airline-name">Etihad</td>
+            <td>EY 489</td>
+            <td>25 kg</td>
+            <td style="font-size:12px; color:var(--charcoal-light);">Transit Abu Dhabi 1h 25m</td>
+          </tr>
+          <tr>
+            <td>23 Jun 2026</td>
+            <td><span class="route-code">AUH</span></td>
+            <td><span class="route-code">JED</span></td>
+            <td>14:15</td>
+            <td>16:10</td>
+            <td class="airline-name">Etihad</td>
+            <td>EY 611</td>
+            <td>25 kg</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>03 Jul 2026</td>
+            <td><span class="route-code">JED</span></td>
+            <td><span class="route-code">AUH</span></td>
+            <td>15:20</td>
+            <td>19:05</td>
+            <td class="airline-name">Etihad</td>
+            <td>EY 616</td>
+            <td>25 kg</td>
+            <td style="font-size:12px; color:var(--charcoal-light);">Transit Abu Dhabi 1h 55m</td>
+          </tr>
+          <tr>
+            <td>03 Jul 2026</td>
+            <td><span class="route-code">AUH</span></td>
+            <td><span class="route-code">KUL</span></td>
+            <td>21:00</td>
+            <td>08:25 +1</td>
+            <td class="airline-name">Etihad</td>
+            <td>EY 488</td>
+            <td>25 kg</td>
+            <td>—</td>
+          </tr>
+          <tr class="flight-price-row">
+            <td colspan="5">Estimated International Flight Price</td>
+            <td colspan="4">RM 3,295 / pax</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="flight-disclaimer">
+      <strong>Important:</strong> The airfare displayed is an estimate and subject to fluctuation — prices may change over time. A final confirmation of the flight price will be conducted at the time of booking. Harga tiket pesawat fluktuatif dan dapat berubah seiring waktu; pengecekan ulang akan dilakukan saat pemesanan.
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     PAYMENT
+════════════════════════════════════════════════════ -->
+<section id="payment">
+  <div class="container">
+    <div class="payment-header">
+      <span class="section-label">Booking Terms</span>
+      <h2>Payment & Reservation Conditions</h2>
+      <div class="ornament-divider"><div class="ornament-diamond"></div></div>
+    </div>
+    <div class="payment-grid">
+      <div class="payment-card">
+        <div class="payment-card-num">01</div>
+        <h4>Flexible Pricing Notice</h4>
+        <p>All rates are subject to change in accordance with airline policies and prevailing currency exchange rates. Confirmed pricing will be provided at the time of booking.</p>
+      </div>
+      <div class="payment-card">
+        <div class="payment-card-num">02</div>
+        <h4>50% Deposit to Secure Your Place</h4>
+        <p>A deposit of 50% per pax of the total package cost (Land Arrangement + Flight Ticket) is required to confirm your booking and secure all components. This deposit forms part of your final balance.</p>
+      </div>
+      <div class="payment-card">
+        <div class="payment-card-num">03</div>
+        <h4>Full Payment Deadline</h4>
+        <p>Complete settlement is required no later than 21 days before the departure date. Payment after this point may result in cancellation.</p>
+      </div>
+      <div class="payment-card">
+        <div class="payment-card-num">04</div>
+        <h4>Immediate Arrangement After Deposit</h4>
+        <p>Upon receipt of deposit, we will immediately proceed to secure your hotel accommodation, flight tickets, and all tour components as agreed.</p>
+      </div>
+      <div class="payment-card">
+        <div class="payment-card-num">05</div>
+        <h4>Name Submission Deadline</h4>
+        <p>All participant names must be finalised no later than 35 days before departure. Name changes after flight ticket issuance may not be possible, subject to airline policy.</p>
+      </div>
+      <div class="payment-card">
+        <div class="payment-card-num">06</div>
+        <h4>Cancellation Policy</h4>
+        <p>If a participant cancels after deposit payment, the deposit is non-refundable. Exceptions may be considered with supporting documentation and mutual written agreement. Delayed final payment may result in forfeiture of the booking.</p>
+      </div>
+    </div>
+    <div style="margin-top:28px; padding:22px 28px; background:var(--white); border-left:3px solid var(--olive); font-size:13.5px; color:var(--charcoal-mid);">
+      All communication and data changes must be made in writing via WhatsApp or official email to ensure proper documentation.
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     NOTES
+════════════════════════════════════════════════════ -->
+<section id="notes">
+  <div class="container">
+    <div class="note-box">
+      <div class="note-icon">📌</div>
+      <div>
+        <h4>A Note on Package Dates</h4>
+        <p>The itinerary header references departure on 02 Jun 2026, while the pricing table references the period 23 Jun – 04 Jul 2026 and the flight schedule shows 23 Jun – 03 Jul 2026. These dates may reflect different departure batch options or require final confirmation at the time of booking. We recommend confirming the precise departure date applicable to your group directly with our team. Some operational details in the source material may require final clarification at booking stage.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     CTA
+════════════════════════════════════════════════════ -->
+<section id="cta">
+  <div class="cta-bg"></div>
+  <div class="cta-overlay"></div>
+  <div class="cta-content">
+    <span class="section-label">Begin Your Journey</span>
+    <h2>Reserve Your<br><em>Sacred Place</em></h2>
+    <p>Spaces in this intimate group are limited. The earlier your confirmation, the smoother every arrangement can be made — from hotel placement to flight securing and Raudhah facilitation.</p>
+    <p>Airfare is subject to market fluctuation. Confirming earlier helps protect the estimated price and ensures priority access to preferred hotel categories.</p>
+    <a href="mailto:info@example.com" class="btn-primary">Proceed with Reservation</a>
+    <div class="cta-details">
+      <span class="cta-detail-item">Minimum 8 Pax</span>
+      <span class="cta-detail-item">50% Deposit to Confirm</span>
+      <span class="cta-detail-item">Fullboard Included</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════ -->
+<footer>
+  <p>Umrah Mandiri 12 Hari — Premium Journey Proposal &nbsp;·&nbsp; Confidential Document &nbsp;·&nbsp; Subject to Final Confirmation</p>
+</footer>
+
+</body>
+</html>
